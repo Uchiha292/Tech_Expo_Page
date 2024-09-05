@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" href="common.css">
+    </head>
+    <body>
+        <div id="head">
+            <h1><img src="tech_expo.png" width="40">Tech Expo 2024</h1>
+            <ol>
+                <nav>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Schedule.html">Schedule</a></li>
+                <li><a href="Exhibitors.html">Exhibitors</a></li>
+                <li><a href="Venue.html">Venue</a></li>
+                <li><a href="Register.html">Register</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li><a href="About.html">About</a></li>
+                </nav>
+            </ol>
+        </div>
+
+        <h2>Register for Tech Expo 2024</h2>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <label for="Name">Name: </label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label for="Email">Email: </label>
+                    <input type="email">
+                </div>
+
+                <div>
+                    <input name="Gender" type="radio" value="Male"> Male
+                    <br>
+                    <input name="Gender" type="radio" value="Female"> Female
+                </div>
+            </fieldset>
+        </form>
+
+        <br>
+
+        <form>
+            <fieldset>
+                <legend>Degree Options</legend>
+                <div>
+                    <label for="Degree">Degree: </label>
+                    <input list="Degree">
+                    <datalist id="Degree">
+                        <option>PostGraduate</option>
+                        <option>Phd</option>
+                        <option>Masters</option>
+                    </datalist>
+                </div>
+
+                <div>
+                    <label for="Workshops">Workshops: </label>
+                    <input name="Gender" type="checkbox" value="AI Workshop"> AI Workshop
+                    <br>
+                    <input name="Gender" type="checkbox" value="IoT Workshop"> IoT Workshop
+                </div>
+            </fieldset>
+        </form>
+        
+        <br>
+
+        <form>
+            <fieldset>
+                <legend>Degree Options</legend>
+                <div>
+                    <label for="Degree">Degree: </label>
+                    <br>
+                    <textarea></textarea>
+                </div>
+            </fieldset>
+        </form>
+
+        <button type="button">Submit</button>
+
+    </body>
+</html>

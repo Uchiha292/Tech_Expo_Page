@@ -1,0 +1,62 @@
+.centre {
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+figure {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 14px;
+}
+
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 2%;
+}
+
+.footer {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+
+.footer h2 {
+    text-align: center;
+}
+
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+    .footer ul{
+        flex-direction: column-reverse;
+    }
+}
